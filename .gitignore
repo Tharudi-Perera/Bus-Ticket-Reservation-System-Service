@@ -1,5 +1,8 @@
 # Compiled class file
 *.class
+target/
+out/
+build/
 
 # Log file
 *.log
@@ -19,6 +22,56 @@
 *.tar.gz
 *.rar
 
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Maven
+dependency-reduced-pom.xml
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE - VS Code
+.vscode/
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+
+# Test coverage
+*.exec
+.sonar/
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Application specific
+/uploads/
+/logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
